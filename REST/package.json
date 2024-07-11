@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Api for laundary app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Rajkumar R",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bunyan": "^1.8.15",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "joi": "^17.13.3",
+    "joy": "^0.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4"
+  }
+}
